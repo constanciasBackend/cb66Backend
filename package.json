@@ -24,6 +24,6 @@
     "stream-consumers": "^1.0.2"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^5.0.1"
   }
 }
