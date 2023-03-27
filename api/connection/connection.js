@@ -1,20 +1,20 @@
 const mysql = require('mysql2');
 
-/*const ccn = mysql.createConnection({
-    host: 'bfmihnzdrggg76jcdc3z-mysql.services.clever-cloud.com',
-    port: '3306',
-    user: 'ur83fxsyk4fqawtn',
-    database:'bfmihnzdrggg76jcdc3z',
-    password : 'YYaQhsg5IcdpHWq7Smo2'
-});*/
- 
 const ccn = mysql.createConnection({
+    host: 'bl2cemmlo8bhrr3qulwy-mysql.services.clever-cloud.com',
+    port: '3306',
+    user: 'utxvwkfi5fmzpjyl',
+    database:'bl2cemmlo8bhrr3qulwy',
+    password : '1nRSoX9bvF9DmjLQQSwo'
+});
+ 
+/*const ccn = mysql.createConnection({
     host: 'localhost',
     port: '3306',
     user: 'root',
     database:'constancias',
     password : 'juanito'
-});
+});*/
 
 ccn.connect (err=>{
     if (err){
